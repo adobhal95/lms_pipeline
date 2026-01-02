@@ -230,6 +230,8 @@ This semantic model will be used as the reporting layer for Power BI.
 Many side always remains on the Fact table,
 One side remains on the Dimension tables.
 
+![](./images/semantic_model.png)
+
 This results in a Star Schema optimal for BI consumption.
 
 - **🖥️ Connecting Power BI Desktop to the Semantic Model**
@@ -261,12 +263,6 @@ Switch to Model View to verify relationships.
         Performance score trends
         Course completion status %
         Total learning time by age group
-
-- **Example observations from dataset:**
-    1. ~76% students completed courses
-    2. 25 active students across 10 courses
-    3. Average completion time ≈ 75 days
-    4. Average performance score ≈ 43
 
 - **💾 Publishing the Report to Fabric Workspace**
     

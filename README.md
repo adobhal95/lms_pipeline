@@ -47,8 +47,20 @@ The pipeline follows a data-driven approach, moving from external raw storage to
 ├── data/               # Simulated(dummy) data for this project
 ├── setup/              # Resource setup documentation
 ├── notebooks/          # PySpark notebooks for Ingestion & Transformation layers
+├── pipelines/          # Fabric resource(Similar to ADF) to orchestrate pipeline movement.
 └── README.md           # Project documentation
 ```
+
+## Example observations from dataset
+    1. ~64% students completed courses
+    2. 25 active students across 10 courses
+    3. Average completion time ≈ 88 days
+    4. Average performance score ≈ 85
+    5. Total Courses = 12
+    6. Total Enrolled Students = 60
+    7. Students from urban area more enrolled in courses.
+
+![](./report.png)
 
 ## Tech Stack
 | Project Step | Technology Used | Why It Matters? |
