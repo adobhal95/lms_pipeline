@@ -11,6 +11,8 @@ The pipeline follows a data-driven approach, moving from external raw storage to
 ### Architecture
 ![LMS Project Architecture](./lms-fabric.png)
 
+All the necessary steps are explained here: [Setup](./docs/setup.md)
+
 ### The Landing Zone (Pre-Ingestion)
 - Source: Simulated LMS website data (Student behavior, assignments, etc.).
 
@@ -41,6 +43,10 @@ The pipeline follows a data-driven approach, moving from external raw storage to
 - Semantic Model: The Gold tables are linked to a Power BI Semantic Model using DirectLake mode (ensuring no data latency).
 
 - Orchestration: The entire flow is unified and automated using Fabric Data Factory Pipelines.
+
+- Azure DevOps: For version control
+
+- Fabric Deployment: To automate the movement of content (Notebooks, Lakehouses, Warehouses, Reports) between different environments: Development and Production. 
 
 ## Folder Structure
 ```
